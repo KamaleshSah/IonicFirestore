@@ -1,0 +1,227 @@
+/*
+ * App Global CSS
+ * ----------------------------------------------------------------------------
+ * Put style rules here that you want to apply globally. These styles are for
+ * the entire app and not just one component. Additionally, this file can be
+ * used as an entry point to import other CSS/Sass files to be included in the
+ * output CSS.
+ * For more information on global stylesheets, visit the documentation:
+ * https://ionicframework.com/docs/layout/global-stylesheets
+ */
+
+/* Core CSS required for Ionic components to work properly */
+@import "@ionic/angular/css/core.css";
+
+/* Basic CSS for apps built with Ionic */
+@import "@ionic/angular/css/normalize.css";
+@import "@ionic/angular/css/structure.css";
+@import "@ionic/angular/css/typography.css";
+@import "@ionic/angular/css/display.css";
+
+/* Optional CSS utils that can be commented out */
+@import "@ionic/angular/css/padding.css";
+@import "@ionic/angular/css/float-elements.css";
+@import "@ionic/angular/css/text-alignment.css";
+@import "@ionic/angular/css/text-transformation.css";
+@import "@ionic/angular/css/flex-utils.css";
+
+/**
+ * Ionic Dark Mode
+ * -----------------------------------------------------
+ * For more info, please see:
+ * https://ionicframework.com/docs/theming/dark-mode
+ */
+
+/* @import "@ionic/angular/css/palettes/dark.always.css"; */
+/* @import "@ionic/angular/css/palettes/dark.class.css"; */
+@import "@ionic/angular/css/palettes/dark.system.css";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300..700&display=swap');
+*{
+  font-family: "Signika Negative", sans-serif;
+  border: 0;
+  outline: 0;
+}
+h1, h2, h3, h4, h5, h6, p {
+  margin-top: 20px;
+  font-size: 15px;
+  line-height: 21px;
+  color: #494848;
+  font-family: "Signika Negative", sans-serif;
+}
+ion-input {
+  font-family: "Signika Negative", sans-serif;
+}
+ion-textarea {
+  font-family: "Signika Negative", sans-serif;
+}
+p {
+  font-size: 14px;
+  line-height: 20px;
+}
+ion-button {
+  width: auto!important;
+  box-shadow: inherit!important;
+}
+.button-solid {
+  background: transparent;
+}
+input:focus {outline: none!important;}
+.btn-transparent {
+  --background: transparent!important;
+  --color: #000!important;
+  --box-shadow: none;
+  margin-top: 9px!important;
+  font-size: .9rem!important;
+}
+
+.button{
+  font-size: 0.9rem;
+  text-align: center;
+  margin-top: 30px;
+  font-family: "Signika Negative", sans-serif;
+  text-transform: uppercase;
+  white-space: unset;
+  font-weight: 500;
+  --background: linear-gradient(to bottom, #f4b528, #ce9a26);
+  --border-radius: 8px;
+}
+.button:focus {outline: none!important;}
+
+
+ion-header {
+  .button {
+    --background: transparent!important;
+    --color: #fff!important;
+    --box-shadow: none;
+    margin: 0;
+    font-size: 14px !important;
+    margin-left: 10px !important;
+  }
+  ion-title {
+    font-family: "Signika Negative", sans-serif;
+    font-size: 15px;
+    // text-transform: capitalize;
+    font-weight: 400;
+  }
+  .header{
+    padding: 0;
+  }
+  ion-buttons {
+
+  }
+  .btn-right {
+    margin-right: 15px;
+    img {
+      width: 20px;
+    }
+  }
+}
+
+ul {
+  li {
+    font-family: "Signika Negative", sans-serif;
+  }
+}
+ion-toast {
+  font-family: "Signika Negative", sans-serif;
+}
+ion-label {
+  font-family: "Signika Negative", sans-serif;
+}
+.searchbar-input.sc-ion-searchbar-md {
+  font-size: 15px!important;
+  box-shadow: none!important;
+  border: 1px solid #b2b3b2;
+  font-family: "Signika Negative", sans-serif;
+}
+.searchbar-input.sc-ion-searchbar-ios {
+  font-size: 15px!important;
+  box-shadow: none!important;
+  border: 1px solid #b2b3b2;
+  font-family: "Signika Negative", sans-serif;
+}
+ion-item {
+  font-family: "Signika Negative", sans-serif;
+}
+.select-text {
+  font-family: "Signika Negative", sans-serif;
+}
+small {
+  font-family: "Signika Negative", sans-serif;
+}
+
+//ion-header{
+//  ion-toolbar{ --padding-end: 16px;--border-width:0 !important;--min-height: 56px !important;}
+//  //ion-title{ font-size: 18px; line-height: 27px; font-weight: 700; color: #212121; text-transform: capitalize;}
+//  ion-badge {    background: var(--ion-color-primary);position: absolute;width: 16px;height: 16px;font-weight: 400;line-height: 18px;
+//    font-size: 10px;text-align: center;padding: 0;top: 9px;right: -7px;border-radius: 50%;
+//  }
+//  //ion-back-button{ color: #000; margin-left: 10px;}
+//  //  ion-toolbar{ --border-width: 0 !important; --background:#FEFAFA;    --min-height: 56px;
+//  // ion-title{ font-size: 18px; color:var(--ion-color-primary); font-weight: 500; }
+//  ion-buttons{ margin: 0; position: relative;
+//    ion-button{ --background: transparent; height: 48px !important; margin-right: 10px !important;
+//      img{ margin-bottom: -6px; width: 100%;}
+//    }
+//  }
+//}
+
+ion-header {
+  .button {
+    --background: transparent!important;
+    --box-shadow: none;
+    margin: 0!important;
+    font-size: 12px !important;
+  }
+  ion-title {
+    font-family: "Signika Negative", sans-serif;
+    font-size: 14px;
+    // text-transform: capitalize;
+    img {
+      width: 110px;
+      margin-top: 6px;
+    }
+  }
+  ion-buttons {
+    font-size: 26px;
+  }
+  .btn-right {
+    margin-right: 10px;
+    &:last-child {
+      margin-right: 15px;
+    }
+    img {
+      width: 20px;
+    }
+    ion-icon {
+      font-size: 20px;
+    }
+  }
+  ion-badge {
+    background: #ce9b29;
+    width: 17px;
+    height: 17px;
+    line-height: 11px;
+    font-weight: 300;
+    border-radius: 50%;
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    font-size: 10px;
+  }
+}
+
+
+.swiper-pagination {
+  position: relative;
+  bottom: 0 !important;
+}
+.swiper-pagination-bullet {
+  background: #f4b528;
+}
+.swiper-pagination-bullet-active {
+  background: var(--ion-color-primary) !important;
+}

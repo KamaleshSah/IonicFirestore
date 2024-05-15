@@ -1,0 +1,7 @@
+{
+  "name": "Firestore POC",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

@@ -15,8 +15,9 @@ export class AddPage implements OnInit {
 
   addItem() {
     this.firestoreService.addItem(this.item).then(() => {
-      this.router.navigateByUrl('/list');
+     
     });
+    this.router.navigateByUrl('/list');
   }
 
 }
